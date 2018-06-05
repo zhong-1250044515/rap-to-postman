@@ -1,0 +1,20 @@
+{
+    "name": "wujunzhong/rap-to-postman",
+    "description": "Convert the json exported by RAP into the json format imported by Postman",
+    "keywords": ["rap-to-postman","rap","postman","rappostman"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wujunzhong",
+            "email": "1250044515@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "RapToPostman\\": "src/"
+        }
+    },
+    "require": {}
+}
