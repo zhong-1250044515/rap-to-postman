@@ -6,10 +6,10 @@ Composer 包下载
 composer require wujunzhong/rap-to-postman
 ```
 代码编写
-```
+``` php
 $tool = new \RapToPostman\RapToPostman();
 $rapBackupSrc = "xxx"; // Rap 导出备份地址
-$savePath = './public'; // 要保存的文件夹路径
+$savePath = "./public"; // 要保存的文件夹路径
 
 return $tool->run($rapBackupSrc, $savePath); // return ./public/postman.json
 ```
